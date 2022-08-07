@@ -32,3 +32,27 @@ b=2
 c=12
 val=$((a * b + c))
 echo $val
+
+echo "*******UC3********"
+
+echo "We are computing a * b + c"
+echo "a = 7"
+echo "b = 2"
+echo "c = 12"
+a=7
+b=2
+c=12
+val=$((a * b + c))
+echo $val
+
+echo "*******UC4********"
+
+echo "We are computing c + a / b"
+echo "a = 7"
+echo "b = 2"
+echo "c = 12"
+a=7
+b=2
+c=12
+val=$((c + a / b))
+echo $val
