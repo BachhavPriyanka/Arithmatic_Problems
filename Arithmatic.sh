@@ -20,3 +20,15 @@ b=25
 c=30
 val=$((a + b * c))
 echo $val
+
+echo "*******UC2********"
+
+echo "We are computing a * b + c"
+echo "a = 7"
+echo "b = 2"
+echo "c = 12"
+a=7
+b=2
+c=12
+val=$((a * b + c))
+echo $val
